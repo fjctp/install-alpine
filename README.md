@@ -48,7 +48,7 @@ vim /etc/fstab # update it accordingly
 Note: if not mounting `/media/vda2` anymore, remember update the settings
 
 ``` bash
-setup-lbu [NEW_MEDIA_LOCATION] # see -help
+setup-lbu [NEW_MEDIA_LOCATION] # see --help
 setup-apkcache [NEW_LOCATION]
 ```
 
