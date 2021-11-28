@@ -77,3 +77,5 @@ lbu commit # remember to save the settings
 
 * custom configs are packed up and save to `/media/vda1/*.apkovl.tar.gz`
 * package selection are kept in `/etc/apk/world` and the package cache are located in `/etc/apk/cache`. If packages don't presist between boot, make sure `lbu` and `apkcache` have the correct settings
+* use `lbu status` to get a list of modified files
+* fetch and upgrade the packages: `apk upgrade -U -a`
